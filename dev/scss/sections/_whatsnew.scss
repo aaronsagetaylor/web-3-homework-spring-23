@@ -1,4 +1,16 @@
-sections_whatsnew.scss{
-    display: grid; 
-    grid-template-columns: 1fr
+#whatsnew{
+    background-color: var(--white);
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            background-color: var(--white);
+            padding-top: 90px;
+            padding-bottom: 100px;
+            width: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
 }

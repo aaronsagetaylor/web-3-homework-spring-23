@@ -1,4 +1,7 @@
-layout_head.scss{
-    display: grid; 
-    grid-template-columns: 1fr
+header{
+    background-color: var(--bluebase);
+    color: var(--black);
+    padding: 25px 0;
+    text-align: center;
+
 }

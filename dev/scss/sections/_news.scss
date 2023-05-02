@@ -1,4 +1,34 @@
-sections_news.scss{
-    display: grid; 
-    grid-template-columns: 1fr
+#news{
+    background-color: var(--white);
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            background-color: var(--white);
+            padding-top: 90px;
+            padding-bottom: 100px;
+            width: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+}
+
+.news{
+    @include md{
+        ul{
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 8px;
+        }
+    }
+
+    @include lg{
+        ul{
+            margin: 0;
+            grid-template-columns: repeat(5,1fr) ;
+        }
+    }
 }

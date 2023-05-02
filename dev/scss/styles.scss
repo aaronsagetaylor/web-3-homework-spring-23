@@ -1,4 +1,4 @@
-
+@charset 'utf-8';
 :root {
     --bluebase: #899DB1;
     --darkblue: #687E93;
@@ -9,9 +9,6 @@
     --greyblue: #637275;
     
 }
-
-@charset 'utf-8';
-
 // Helpers Styles
 @import "helpers/_mixins";
 @import "helpers/_variables";
@@ -30,6 +27,15 @@
 @import "layout/_header";
 @import "layout/_footer";
 
-// Sections Styles
+// Head Styles
+@import "layout/_head";
+
+
+// Body Styles
 @import "sections/_hero";
+@import "sections/_subhero";
+@import "sections/_3heroimages";
+@import "sections/_whatsnew";
+@import "sections/_news";
+
 
