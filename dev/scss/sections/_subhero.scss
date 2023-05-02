@@ -13,4 +13,26 @@
             text-align: center;
         }
     }
+
+
+    @include sm{
+        grid-template-columns: repeat(1fr);
+    }
+    
+    @include md{
+        ul{
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+           
+        }
+    }
+
+    @include lg{
+        ul{
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }

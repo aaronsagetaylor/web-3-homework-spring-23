@@ -16,19 +16,25 @@
 }
 
 .news{
+    @include sm{
+        grid-template-columns: repeat(1fr);
+    }
+    
     @include md{
         ul{
             margin: 0;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 8px;
+            grid-template-columns: 2fr 1fr;
+            grid-gap: 4px;
         }
     }
 
     @include lg{
         ul{
             margin: 0;
-            grid-template-columns: repeat(5,1fr) ;
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            grid-gap: 4px;
         }
     }
 }
