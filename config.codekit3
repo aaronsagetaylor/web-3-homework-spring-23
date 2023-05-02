@@ -173,6 +173,14 @@
       "oAP" : "\/dev\/content\/news.html",
       "oF" : 0
     },
+    "\/dev\/content\/subhero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/subhero.html",
+      "oF" : 0
+    },
     "\/dev\/content\/whatsnew.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -367,6 +375,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/layout\/_head.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/layout\/_head.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -377,6 +400,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_3heroimages.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_3heroimages.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -397,7 +435,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/news.scss" : {
+    "\/dev\/scss\/sections\/_news.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -406,7 +444,37 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/sections\/news.css",
+      "oAP" : "\/dev\/scss\/sections\/_news.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_subhero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_subhero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_whatsnew.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_whatsnew.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

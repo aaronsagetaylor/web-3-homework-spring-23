@@ -1,3 +1,13 @@
+:root {
+  --bluebase: #899DB1;
+  --darkblue: #687E93;
+  --yellow: #FEB914;
+  --lightblue: #E4EAED;
+  --white: #FFFFFF;
+  --black: #000000;
+  --greyblue: #637275;
+}
+
 /* =============
     Mixins
 ============= */
@@ -11,8 +21,13 @@ html {
     Variables
 ============= */
 :root {
+  --bluebase: #899DB1;
+  --darkblue: #687E93;
+  --yellow: #FEB914;
+  --lightblue: #E4EAED;
+  --white: #FFFFFF;
   --black: #000000;
-  --white: #ffffff;
+  --greyblue: #637275;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -357,6 +372,19 @@ textarea {
 /* =============
     Header
 ============= */
-/* =============
-    Footer
-============= */
+header {
+  background-color: var(--bluebase);
+  color: var(--black);
+  padding: 25px 0;
+  text-align: center;
+}
+
+layout_footer.scss {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+sections_hero.scss {
+  display: grid;
+  grid-template-columns: 1fr;
+}
