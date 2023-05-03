@@ -1,4 +1,6 @@
-sections_3heroimages.scss{
+#_3heroimages{
+    img{ width: 100%;
+    }
     display: grid; 
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
 }

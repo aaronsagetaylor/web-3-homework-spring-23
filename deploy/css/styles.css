@@ -1,3 +1,13 @@
+:root {
+  --bluebase: #899DB1;
+  --darkblue: #687E93;
+  --yellow: #FEB914;
+  --lightblue: #E4EAED;
+  --white: #FFFFFF;
+  --black: #000000;
+  --greyblue: #637275;
+}
+
 /* =============
     Mixins
 ============= */
@@ -11,8 +21,13 @@ html {
     Variables
 ============= */
 :root {
+  --bluebase: #899DB1;
+  --darkblue: #687E93;
+  --yellow: #FEB914;
+  --lightblue: #E4EAED;
+  --white: #FFFFFF;
   --black: #000000;
-  --white: #ffffff;
+  --greyblue: #637275;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,6 +342,20 @@ template {
 /* =============
     Base
 ============= */
+img {
+  width: 100%;
+}
+
+button {
+  background-color: var(--yellow);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Typography
 ============= */
@@ -357,6 +386,135 @@ textarea {
 /* =============
     Header
 ============= */
-/* =============
-    Footer
-============= */
+header {
+  background-color: var(--bluebase);
+  color: var(--black);
+  padding: 25px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--bluebase);
+  color: var(--black);
+  padding: 25px 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer ul li {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 1024px) {
+  footer ul li {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#subhero {
+  background-color: var(--white);
+}
+#subhero ul {
+  margin: 0;
+  padding: 0;
+}
+#subhero ul li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  #subhero {
+    grid-template-columns: repeat(1fr);
+  }
+}
+@media (min-width: 768px) {
+  #subhero ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media (min-width: 1024px) {
+  #subhero ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+#_3heroimages {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#_3heroimages img {
+  width: 100%;
+}
+
+#whatsnew {
+  background-color: var(--white);
+}
+#whatsnew ul {
+  margin: 0;
+  padding: 0;
+}
+#whatsnew ul li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#news {
+  background-color: var(--white);
+}
+#news ul {
+  margin: 0;
+  padding: 0;
+}
+#news ul li {
+  list-style: none;
+  background-color: var(--white);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .news {
+    grid-template-columns: repeat(1fr);
+  }
+}
+@media (min-width: 768px) {
+  .news ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 4px;
+  }
+}
+@media (min-width: 1024px) {
+  .news ul {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 4px;
+  }
+}
