@@ -1,39 +1,38 @@
 #subhero{
-    background-color: var(--white);
-    ul{
-        margin: 0;
-        padding: 0;
-        li{
-            list-style: none;
-            background-color: var(--white);
-            padding-top: 90px;
-            padding-bottom: 100px;
-            width: 100%;
-            margin-bottom: 15px;
-            text-align: center;
-        }
-    }
+    display: grid;
+    grid-template-columns: 1fr;
 
-
-    @include sm{
-        grid-template-columns: repeat(1fr);
+    div.left{
+        background-color: var(--bluebase);
     }
     
+    div.right{
+        background-color: var(--bluebase);
+    }
+
     @include md{
-        ul{
-            margin: 0;
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-           
-        }
+        grid-template-columns: 1fr 1fr;
     }
 
     @include lg{
-        ul{
-            margin: 0;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
+        grid-template-columns: 1fr 1fr;
     }
-}
+           
+        }
 
+#subinfo{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--lightblue);
+
+
+    
+    @include md{
+         grid-template-columns: 1fr 1fr;  
+    }
+
+    @include lg{
+        grid-template-columns: 1fr 1fr;  
+   }
+
+}
