@@ -7,6 +7,63 @@ header{
     color: var(--black);
     padding: 25px 0;
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    #searcharea{
+        background-color: var(--white);
+        padding: 25px 0;
+        padding-bottom: 25px;
+    }
 
 
+}
+
+
+
+nav{
+    background-color: var(--white);
+    padding: 24px;
+    display: flex;
+
+    div{
+        display: none;        
+    }
+    img{
+
+    }
+
+    h1{
+
+    }
+
+    h3{
+
+    }
+
+}
+
+
+
+
+section{
+    padding: 24px;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 10px;
+    
+    font#searcharea
+    
+    input{
+        border: none;
+        border-bottom: 1px solid var(--bluebase);
+    }
+    button{
+        background-color: var(--yellow);
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px 6px 11px;
+    }
 }
