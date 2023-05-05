@@ -10,14 +10,14 @@ header{
     display: grid;
     grid-template-columns: 1fr;
    
-    #searcharea{
-        background-color: var(--white);
-        padding: 25px 0;
-        padding-bottom: 25px;
-    }
+  
 
     section{
         padding: 24px;
+       
+            background-color: var(--white);
+            padding: 25px 0;
+            padding-bottom: 25px;
     
         font#searcharea{
 
@@ -30,7 +30,7 @@ header{
         input{
             border: none;
             border-bottom: 1px solid var(--bluebase);
-            
+            width: 75%;
         }
         button{
             background-color: var(--yellow);

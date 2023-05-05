@@ -425,13 +425,11 @@ header {
   display: grid;
   grid-template-columns: 1fr;
 }
-header #searcharea {
+header section {
+  padding: 24px;
   background-color: var(--white);
   padding: 25px 0;
   padding-bottom: 25px;
-}
-header section {
-  padding: 24px;
 }
 header section font#searcharea {
   display: flex;
@@ -443,6 +441,7 @@ header section font#searcharea {
 header section input {
   border: none;
   border-bottom: 1px solid var(--bluebase);
+  width: 75%;
 }
 header section button {
   background-color: var(--yellow);
