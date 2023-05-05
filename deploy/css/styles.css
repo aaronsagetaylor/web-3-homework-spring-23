@@ -430,34 +430,43 @@ header #searcharea {
   padding: 25px 0;
   padding-bottom: 25px;
 }
-
-nav {
-  background-color: var(--white);
+header section {
   padding: 24px;
-  display: flex;
 }
-nav div {
-  display: none;
-}
-section {
-  padding: 24px;
+header section font#searcharea {
   display: flex;
   width: 100%;
   align-items: stretch;
   justify-content: space-between;
   gap: 10px;
 }
-section font#searcharea input {
+header section input {
   border: none;
   border-bottom: 1px solid var(--bluebase);
 }
-section button {
+header section button {
   background-color: var(--yellow);
   border-radius: 3.5px;
   border: none;
   padding: 6px 11px 6px 11px;
 }
-
+header nav {
+  background-color: var(--bluebase);
+  padding: 0;
+  display: flex;
+}
+header nav div {
+  display: none;
+}
+@media (min-width: 768px) {
+  header nav {
+    display: inline;
+    padding-left: 17px;
+  }
+}
+header nav img {
+  width: 43px;
+}
 footer {
   background-color: var(--bluebase);
   color: var(--black);
