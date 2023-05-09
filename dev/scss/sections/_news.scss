@@ -13,9 +13,9 @@
             text-align: center;
         }
     }
-}
 
-.news{
+
+
     @include sm{
         grid-template-columns: repeat(1fr);
     }
