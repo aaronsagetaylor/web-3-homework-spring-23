@@ -4,27 +4,27 @@ footer{
     padding: 25px 0;
     text-align: center;
 
+    div.newsletter{
+
+    }
+    
+    div.locations{
+
+    }
+
 
     @include md{
-        ul{
-            li{
-                margin: 0;
+            margin: 0;
+            flex-flow: column;
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            }
-            
-           
-        }
-    }
+            grid-template-columns: 1fr 1fr;
+                }
 
     @include lg{
-        ul{
-            li{
-                  margin: 0;
+             margin: 0;
             display: grid;
-            grid-template-columns: 1fr 1fr; 
+            grid-template-columns: 1fr 1fr 1fr; 
             }
          
-        }
-    }
+        
 }

@@ -465,7 +465,7 @@ header nav div {
   }
 }
 header nav img {
-  width: 43px;
+  width: 100px;
 }
 footer {
   background-color: var(--bluebase);
@@ -474,17 +474,18 @@ footer {
   text-align: center;
 }
 @media (min-width: 768px) {
-  footer ul li {
+  footer {
     margin: 0;
+    flex-flow: column;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 1024px) {
-  footer ul li {
+  footer {
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
