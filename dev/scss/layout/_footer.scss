@@ -12,6 +12,18 @@ footer{
 
     }
 
+        a{
+            background-color: var(--bluebase);
+            color: var(--white);
+            padding: 20px;
+            margin: 100px;
+        }
+    
+    
+        a.hover{
+            background-color: var(--lightblue);
+
+        }
 
     @include md{
             margin: 0;
