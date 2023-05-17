@@ -17,13 +17,19 @@
     @include lg{
         grid-template-columns: 1fr 1fr;
     }
+
+    div {
+        padding: 30px;
+        margin: 15px;
+        background-color: var(--white);
+    }
            
         }
 
 #subinfo{
     display: grid;
     grid-template-columns: 1fr;
-    background-color: var(--lightblue);
+    background-color: var(--white);
 
 
     
@@ -35,5 +41,13 @@
         grid-template-columns: 1fr 1fr;  
         
    }
+
+div {
+    padding: 30px;
+    margin: 15px;
+    background-color: var(--lightblue);
+}
+
+
 
 }

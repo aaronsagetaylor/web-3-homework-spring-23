@@ -533,11 +533,16 @@ footer a.hover {
     grid-template-columns: 1fr 1fr;
   }
 }
+#subhero div {
+  padding: 30px;
+  margin: 15px;
+  background-color: var(--white);
+}
 
 #subinfo {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--lightblue);
+  background-color: var(--white);
 }
 @media (min-width: 768px) {
   #subinfo {
@@ -548,6 +553,11 @@ footer a.hover {
   #subinfo {
     grid-template-columns: 1fr 1fr;
   }
+}
+#subinfo div {
+  padding: 30px;
+  margin: 15px;
+  background-color: var(--lightblue);
 }
 
 #heroimages ul {
@@ -642,6 +652,10 @@ footer a.hover {
   width: 100%;
   margin-bottom: 15px;
   text-align: center;
+}
+#news figure {
+  overflow: hidden;
+  height: 200px;
 }
 @media (min-width: 576px) {
   #news {

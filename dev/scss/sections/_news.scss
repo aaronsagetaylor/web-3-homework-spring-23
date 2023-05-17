@@ -14,7 +14,10 @@
         }
     }
 
-
+figure{
+    overflow: hidden;
+    height: 200px;
+}
 
     @include sm{
         grid-template-columns: repeat(1fr);
